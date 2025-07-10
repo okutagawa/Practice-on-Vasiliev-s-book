@@ -1,0 +1,10 @@
+C:\Users\sasha\source\repos\Practice-on-Vasiliev-s-book\BookPractice\Project-FormBasics\bin\Debug\Project-FormBasics.exe.config
+C:\Users\sasha\source\repos\Practice-on-Vasiliev-s-book\BookPractice\Project-FormBasics\bin\Debug\Project-FormBasics.exe
+C:\Users\sasha\source\repos\Practice-on-Vasiliev-s-book\BookPractice\Project-FormBasics\bin\Debug\Project-FormBasics.pdb
+C:\Users\sasha\source\repos\Practice-on-Vasiliev-s-book\BookPractice\Project-FormBasics\obj\Debug\Project-FormBasics.csproj.AssemblyReference.cache
+C:\Users\sasha\source\repos\Practice-on-Vasiliev-s-book\BookPractice\Project-FormBasics\obj\Debug\Project_FormBasics.Properties.Resources.resources
+C:\Users\sasha\source\repos\Practice-on-Vasiliev-s-book\BookPractice\Project-FormBasics\obj\Debug\Project-FormBasics.csproj.GenerateResource.cache
+C:\Users\sasha\source\repos\Practice-on-Vasiliev-s-book\BookPractice\Project-FormBasics\obj\Debug\Project-FormBasics.csproj.CoreCompileInputs.cache
+C:\Users\sasha\source\repos\Practice-on-Vasiliev-s-book\BookPractice\Project-FormBasics\obj\Debug\Project-FormBasics.exe
+C:\Users\sasha\source\repos\Practice-on-Vasiliev-s-book\BookPractice\Project-FormBasics\obj\Debug\Project-FormBasics.pdb
+C:\Users\sasha\source\repos\Practice-on-Vasiliev-s-book\BookPractice\Project-FormBasics\obj\Debug\Project-FormBasics.exe.config
