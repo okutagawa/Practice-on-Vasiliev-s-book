@@ -1,1 +1,8 @@
 *.vsidx
+*.db
+*.db-shm
+*.db
+*.json
+/BookPractice/.vs
+*.db
+BookPractice/.vs/BookPractice/CopilotIndices/17.14.719.50355/CodeChunks.db
