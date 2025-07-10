@@ -16,7 +16,13 @@ namespace Project_FormBasics
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            // Application.Run(new Form1());
+            MessageBox.Show("Продолжаем изучать C#", "Window", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            // Передаем до 4-х аргументов в show
+            // Первый аргумент - содержимое 
+            // Второй аргумент - название окна
+            // Третий аргумент - Наличие кнопок 
+            // Четвертый аргумент - значение окна (в данном случае это предупреждение, а именно восклицательный знак в желтом треугольнике)
         }
     }
 }
