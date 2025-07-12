@@ -396,16 +396,3 @@ FodyWeavers.xsd
 *.msm
 *.msp
 *.vsidx
-<<<<<<< HEAD
-*.db
-*.db-shm
-*.db
-*.json
-/BookPractice/.vs
-*.db
-BookPractice/.vs/BookPractice/CopilotIndices/17.14.719.50355/CodeChunks.db
-=======
-
-# JetBrains Rider
-*.sln.iml
->>>>>>> 8839592eb311c0502ed52e1b923c708a67ecb9bc
