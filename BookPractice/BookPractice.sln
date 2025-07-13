@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task4", "IndependentWork1\T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task5", "IndependentWork1\Task5\Task5.csproj", "{54464D24-CB25-486C-A913-BC811A92609C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task6", "Task6\Task6.csproj", "{A1B288E5-C497-4B6E-B704-B77282ED58CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task6", "IndependentWork1\Task6\Task6.csproj", "{A1B288E5-C497-4B6E-B704-B77282ED58CE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Task7", "IndependentWork1\Task7\Task7.csproj", "{53F4CBAE-6B7D-47CC-ADD1-8DFC18277502}"
 EndProject
