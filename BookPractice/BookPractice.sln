@@ -5,7 +5,7 @@ VisualStudioVersion = 17.14.36127.28
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter02-Basic_Types_And_Operators", "Chapter02-Basic_Types_And_Operators", "{36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddEven", "Chapter02-Basic_Types_And_Operators\ConsoleApp1\OddEven.csproj", "{57AD8D3E-D0B3-4B95-948A-13F223815B5F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OddEven", "Chapter02-Basic_Types_And_Operators\OddEven\OddEven.csproj", "{57AD8D3E-D0B3-4B95-948A-13F223815B5F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hundreds", "Chapter02-Basic_Types_And_Operators\Hundreds\Hundreds.csproj", "{076F439F-E4EB-4C2B-9A5B-AD27AED52158}"
 EndProject
