@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForFour", "Chapter03-Contro
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ForFive", "Chapter03-Control_Instructions\ForFive\ForFive.csproj", "{0E4A399D-F8A4-43DF-B91B-A315728ABCC1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Goto", "Chapter03-Control_Instructions\Goto\Goto.csproj", "{22200D5F-A28B-49A2-B0EB-46E20EAC0F53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -89,6 +91,10 @@ Global
 		{0E4A399D-F8A4-43DF-B91B-A315728ABCC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E4A399D-F8A4-43DF-B91B-A315728ABCC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E4A399D-F8A4-43DF-B91B-A315728ABCC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22200D5F-A28B-49A2-B0EB-46E20EAC0F53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22200D5F-A28B-49A2-B0EB-46E20EAC0F53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22200D5F-A28B-49A2-B0EB-46E20EAC0F53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22200D5F-A28B-49A2-B0EB-46E20EAC0F53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -107,6 +113,7 @@ Global
 		{3441058E-A735-4B54-9279-DF203D594877} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
 		{835DB5C0-7210-40AC-B61F-F7151E903C69} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
 		{0E4A399D-F8A4-43DF-B91B-A315728ABCC1} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
+		{22200D5F-A28B-49A2-B0EB-46E20EAC0F53} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {15339F88-EBD6-4192-AA46-AA4C18B68625}
