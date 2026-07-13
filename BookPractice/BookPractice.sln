@@ -59,6 +59,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintNumbersMethod", "Chapt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumDigitsMethod", "Chapter05-Methods\recursive method\SumDigitsMethod\SumDigitsMethod.csproj", "{1E50D094-9C0B-4FBD-8696-778E4F36FA23}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrintArrayRecursiveMethod", "Chapter05-Methods\recursive method\PrintArrayRecursiveMethod\PrintArrayRecursiveMethod.csproj", "{6B783DED-B28F-4E1C-8027-9706ED830A5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibMethod", "Chapter05-Methods\recursive method\FibMethod\FibMethod.csproj", "{F3FDCE4F-6A3E-4FFD-B030-570058B9BC73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PalindromeMethod", "Chapter05-Methods\recursive method\PalindromeMethod\PalindromeMethod.csproj", "{8B6C2C1A-60B5-4D05-8398-D7B5A85EA34B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerRecMethod", "Chapter05-Methods\recursive method\PowerRecMethod\PowerRecMethod.csproj", "{44D7D4DF-851A-4D77-A9D0-A1E8BBA25B10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -157,6 +165,22 @@ Global
 		{1E50D094-9C0B-4FBD-8696-778E4F36FA23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E50D094-9C0B-4FBD-8696-778E4F36FA23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E50D094-9C0B-4FBD-8696-778E4F36FA23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B783DED-B28F-4E1C-8027-9706ED830A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B783DED-B28F-4E1C-8027-9706ED830A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B783DED-B28F-4E1C-8027-9706ED830A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B783DED-B28F-4E1C-8027-9706ED830A5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3FDCE4F-6A3E-4FFD-B030-570058B9BC73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3FDCE4F-6A3E-4FFD-B030-570058B9BC73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3FDCE4F-6A3E-4FFD-B030-570058B9BC73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3FDCE4F-6A3E-4FFD-B030-570058B9BC73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B6C2C1A-60B5-4D05-8398-D7B5A85EA34B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B6C2C1A-60B5-4D05-8398-D7B5A85EA34B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B6C2C1A-60B5-4D05-8398-D7B5A85EA34B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B6C2C1A-60B5-4D05-8398-D7B5A85EA34B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44D7D4DF-851A-4D77-A9D0-A1E8BBA25B10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D7D4DF-851A-4D77-A9D0-A1E8BBA25B10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D7D4DF-851A-4D77-A9D0-A1E8BBA25B10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D7D4DF-851A-4D77-A9D0-A1E8BBA25B10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -189,6 +213,10 @@ Global
 		{8FF7F75E-82E1-4F68-B243-708DD7264197} = {69E0C908-6167-4862-BA90-225868EAB7AB}
 		{54B73129-F8E7-4EC7-BCB9-7EEDE8F3F256} = {8FF7F75E-82E1-4F68-B243-708DD7264197}
 		{1E50D094-9C0B-4FBD-8696-778E4F36FA23} = {8FF7F75E-82E1-4F68-B243-708DD7264197}
+		{6B783DED-B28F-4E1C-8027-9706ED830A5D} = {8FF7F75E-82E1-4F68-B243-708DD7264197}
+		{F3FDCE4F-6A3E-4FFD-B030-570058B9BC73} = {8FF7F75E-82E1-4F68-B243-708DD7264197}
+		{8B6C2C1A-60B5-4D05-8398-D7B5A85EA34B} = {8FF7F75E-82E1-4F68-B243-708DD7264197}
+		{44D7D4DF-851A-4D77-A9D0-A1E8BBA25B10} = {8FF7F75E-82E1-4F68-B243-708DD7264197}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {15339F88-EBD6-4192-AA46-AA4C18B68625}
