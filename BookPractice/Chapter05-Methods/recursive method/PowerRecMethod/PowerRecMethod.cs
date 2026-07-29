@@ -23,6 +23,6 @@ public class PowerRecMethod
             return 1;
         }
 
-        return baseNum = baseNum * PowerRec(baseNum, exponent - 1);
+        return baseNum * PowerRec(baseNum, exponent - 1);
     }
 }

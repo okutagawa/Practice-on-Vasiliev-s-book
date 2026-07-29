@@ -18,10 +18,10 @@ public class PrintNumbersMethod
 
         Console.WriteLine(n);
 
-        n--;
+        // n--;
 
-        PrintNumbers(n);
+        PrintNumbers(n - 1);
 
-        Console.WriteLine(n + 1);
+        Console.WriteLine(n);
     }
 }
