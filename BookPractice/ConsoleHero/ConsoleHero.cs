@@ -77,6 +77,8 @@ public class ConsoleHero
     // Процесс боя
     static void Battle(ref int heroHp, ref int heroDamage, ref int heroArmor, ref int[] inventory, string randEnemy, ref int enemyHp, ref int enemyDamage)
     {
+        bool victory = false;
+        
         while (heroHp > 0 && enemyHp > 0)
         {
             ShowBattleStats(heroHp, enemyHp); // вывод текущего состояния героя и противника
@@ -84,18 +86,27 @@ public class ConsoleHero
 
             int choise = int.Parse(Console.ReadLine());
 
-            switch(choise)
+            switch (choise)
             {
                 case 1:
-                    Attack(ref enemyHp, heroDamage);
+                    HeroAttack(ref enemyHp, heroDamage);
+                    EnemyAttack(ref heroHp, enemyDamage);
                     break;
                 case 2:
                     heroHp =- Defend(enemyDamage, heroArmor);
                     break;
                 case 3:
-                    UsePotion(ref heroHp);
+                    UsePotion(ref heroHp, ref inventory);
+                    EnemyAttack(ref heroHp, enemyDamage);
                     break;
             }
+
+            victory = Victory(enemyHp, ref inventory);
+        }
+
+        if (victory)
+        {
+            Console.WriteLine("Вы победили противника! Вы получаете 1 зелье!");
         }
     }
 
@@ -116,12 +127,21 @@ public class ConsoleHero
         Console.WriteLine("3. Использовать зелье из инвентаря");
     }
 
-    // Логика атаки и вычисления ХП
-    static void Attack(ref int enemyHp, int heroDamage)
+    // Атака героя
+    static void HeroAttack(ref int enemyHp, int heroDamage)
     {
         Random rnd = new Random();
 
-        enemyHp =- rnd.Next(heroDamage - 2, heroDamage +2);
+        enemyHp -= rnd.Next(heroDamage - 2, heroDamage +2);
+
+    }
+
+    // Атака противника
+    static void EnemyAttack(ref int heroHp, int enemyDamage)
+    {
+        Random rnd = new Random();
+
+        heroHp -= rnd.Next(enemyDamage - 2, enemyDamage + 2);
     }
 
     // Логика блокирования урона и защиты
@@ -137,21 +157,82 @@ public class ConsoleHero
         }
     }
 
-    static void UsePotion(ref int heroHp)
+    // Логика использования зелья
+    static void UsePotion(ref int heroHp, ref int[] inventory)
     {
+        int sum = 0;
 
+        for (int i = 0; i < inventory.Length; i++)
+        {
+            if (inventory[i] == 1)
+            {            
+                if (heroHp + 30 > 100)
+                {
+                    heroHp = 100;
+                }
+                else
+                {
+                    heroHp += 30;
+                }
+                UsePotion(ref inventory, i);
+                break;
+            }
+            else 
+            {
+                sum++;
+            }
+
+            if (sum == 5)
+            {
+                Console.WriteLine("Ваш инвентарь пуст!");
+            }
+        }
     }
 
-    static void UsePotion(int[] inventory, int index)
+    static void UsePotion(ref int[] inventory, int index)
     {
-
+        inventory[index] = 0; 
     }
 
+    // Просмотр содержимого инвентаря
     static void ShowInventory(int[] inventory)
+    {
+        int count = 0;
+        for (int i = 0; i < inventory.Length; i++)
+        {
+            if (inventory[i] == 1)
+            {
+                count++;
+            } 
+        }
+        Console.WriteLine($"\nВаш инвентарь содержит {count} зелий.");
+        Console.WriteLine("\n");
+    }
+
+    // Проверка победы
+    static bool Victory(int enemyHp, ref int[] inventory)
+    {
+        if (enemyHp > 0)
+        {
+            return false;
+        }
+        else
+        {
+            AddPotion(ref inventory);
+            return true;
+        }
+    }
+
+    // Добавление зелья за победу
+    static void AddPotion(ref int[] inventory)
     {
         for (int i = 0; i < inventory.Length; i++)
         {
-            Console.Write(inventory[i] + " ");
-        }
+            if (inventory[i] == 0)
+            {
+                inventory[i] = 1;
+                break;
+            }
+        } 
     }
 }
