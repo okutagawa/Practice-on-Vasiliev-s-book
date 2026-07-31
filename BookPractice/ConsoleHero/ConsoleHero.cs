@@ -32,8 +32,6 @@ public class ConsoleHero
                     return;
             }
         }
-
-        // Console.WriteLine(RollDice(3, 10));
     }
 
     // Меню игры
@@ -90,23 +88,32 @@ public class ConsoleHero
             {
                 case 1:
                     HeroAttack(ref enemyHp, heroDamage);
-                    EnemyAttack(ref heroHp, enemyDamage);
                     break;
                 case 2:
-                    heroHp =- Defend(enemyDamage, heroArmor);
+                    heroHp -= Defend(enemyDamage, heroArmor);
                     break;
                 case 3:
                     UsePotion(ref heroHp, ref inventory);
-                    EnemyAttack(ref heroHp, enemyDamage);
                     break;
             }
 
+            // Проверка на то, чтобы противник не смог нанести урон при 0 ХП
+            if (enemyHp > 0)
+            {
+                EnemyAttack(ref heroHp, enemyDamage);
+            }
+
+            // Проверка на победу
             victory = Victory(enemyHp, ref inventory);
         }
 
         if (victory)
         {
             Console.WriteLine("Вы победили противника! Вы получаете 1 зелье!");
+        }
+        else 
+        { 
+            Console.WriteLine("К сожалению Вы проиграли :(");
         }
     }
 
