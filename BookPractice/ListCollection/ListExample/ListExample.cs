@@ -14,7 +14,7 @@ namespace BookPractice
             socialNetworks.Add("Telegram");
             socialNetworks.Add("Instagram");
 
-            // List<string> socialNetworks = () { "Youtube", "Telegram", "Instagram" }; // альтернатива объявления списка
+            // List<string> socialNetworks = new() { "Youtube", "Telegram", "Instagram" }; // альтернатива объявления списка
 
             socialNetworks.Insert(1, "Tiktok"); // вставка в список по индексу
 
@@ -30,6 +30,8 @@ namespace BookPractice
 
 
             socialNetworks.Sort(); //  сортировка по алфавиту
+
+            Console.WriteLine(socialNetworks.Count() + "\n"); // отображение кол-ва элементов в списке
 
             foreach (string socialNetwork in socialNetworks)
             {
