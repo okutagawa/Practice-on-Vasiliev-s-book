@@ -45,13 +45,3 @@ DeepSeek использую как вспомогательный инструм
 │   └── TicTacToe/
 └── CSharp-Practice.sln
 ```
-
-## Запуск
-
-Открыть `CSharp-Practice.sln` в Visual Studio или запустить выбранный проект из терминала:
-
-```bash
-dotnet run --project "Projects/ConsoleHero/ConsoleHero.csproj"
-```
-
-Репозиторий обновляется по мере изучения новых тем.
