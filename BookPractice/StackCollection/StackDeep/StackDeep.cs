@@ -25,7 +25,7 @@ namespace BookPractice
                         maxDeepth = deep.Count;
                     }
                 }
-                else
+                else if (c == ')')
                 {
                     deep.Pop();
                 }
