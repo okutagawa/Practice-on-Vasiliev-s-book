@@ -1,0 +1,16 @@
+D:\Practice\Practice-on-Vasiliev-s-book\Chapter07-Class\ClassBase\ClassBaseCharacter\bin\Debug\net8.0\ClassBaseCharacter.exe
+D:\Practice\Practice-on-Vasiliev-s-book\Chapter07-Class\ClassBase\ClassBaseCharacter\bin\Debug\net8.0\ClassBaseCharacter.deps.json
+D:\Practice\Practice-on-Vasiliev-s-book\Chapter07-Class\ClassBase\ClassBaseCharacter\bin\Debug\net8.0\ClassBaseCharacter.runtimeconfig.json
+D:\Practice\Practice-on-Vasiliev-s-book\Chapter07-Class\ClassBase\ClassBaseCharacter\bin\Debug\net8.0\ClassBaseCharacter.dll
+D:\Practice\Practice-on-Vasiliev-s-book\Chapter07-Class\ClassBase\ClassBaseCharacter\bin\Debug\net8.0\ClassBaseCharacter.pdb
+D:\Practice\Practice-on-Vasiliev-s-book\Chapter07-Class\ClassBase\ClassBaseCharacter\obj\Debug\net8.0\ClassBaseCharacter.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice\Practice-on-Vasiliev-s-book\Chapter07-Class\ClassBase\ClassBaseCharacter\obj\Debug\net8.0\ClassBaseCharacter.AssemblyInfoInputs.cache
+D:\Practice\Practice-on-Vasiliev-s-book\Chapter07-Class\ClassBase\ClassBaseCharacter\obj\Debug\net8.0\ClassBaseCharacter.AssemblyInfo.cs
+D:\Practice\Practice-on-Vasiliev-s-book\Chapter07-Class\ClassBase\ClassBaseCharacter\obj\Debug\net8.0\ClassBaseCharacter.csproj.CoreCompileInputs.cache
+D:\Practice\Practice-on-Vasiliev-s-book\Chapter07-Class\ClassBase\ClassBaseCharacter\obj\Debug\net8.0\ClassBaseCharacter.sourcelink.json
+D:\Practice\Practice-on-Vasiliev-s-book\Chapter07-Class\ClassBase\ClassBaseCharacter\obj\Debug\net8.0\ClassBaseCharacter.dll
+D:\Practice\Practice-on-Vasiliev-s-book\Chapter07-Class\ClassBase\ClassBaseCharacter\obj\Debug\net8.0\refint\ClassBaseCharacter.dll
+D:\Practice\Practice-on-Vasiliev-s-book\Chapter07-Class\ClassBase\ClassBaseCharacter\obj\Debug\net8.0\ClassBaseCharacter.pdb
+D:\Practice\Practice-on-Vasiliev-s-book\Chapter07-Class\ClassBase\ClassBaseCharacter\obj\Debug\net8.0\ClassBaseCharacter.genruntimeconfig.cache
+D:\Practice\Practice-on-Vasiliev-s-book\Chapter07-Class\ClassBase\ClassBaseCharacter\obj\Debug\net8.0\ref\ClassBaseCharacter.dll
+D:\Practice\Practice-on-Vasiliev-s-book\Chapter07-Class\ClassBase\ClassBaseCharacter\obj\Debug\net8.0\ClassBas.4C7C5CF0.Up2Date

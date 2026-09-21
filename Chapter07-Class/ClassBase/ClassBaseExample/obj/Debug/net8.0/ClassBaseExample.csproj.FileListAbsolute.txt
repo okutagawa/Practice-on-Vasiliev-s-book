@@ -1,0 +1,16 @@
+D:\Practice\Practice-on-Vasiliev-s-book\Chapter07-Class\ClassBase\ClassBaseExample\bin\Debug\net8.0\ClassBaseExample.exe
+D:\Practice\Practice-on-Vasiliev-s-book\Chapter07-Class\ClassBase\ClassBaseExample\bin\Debug\net8.0\ClassBaseExample.deps.json
+D:\Practice\Practice-on-Vasiliev-s-book\Chapter07-Class\ClassBase\ClassBaseExample\bin\Debug\net8.0\ClassBaseExample.runtimeconfig.json
+D:\Practice\Practice-on-Vasiliev-s-book\Chapter07-Class\ClassBase\ClassBaseExample\bin\Debug\net8.0\ClassBaseExample.dll
+D:\Practice\Practice-on-Vasiliev-s-book\Chapter07-Class\ClassBase\ClassBaseExample\bin\Debug\net8.0\ClassBaseExample.pdb
+D:\Practice\Practice-on-Vasiliev-s-book\Chapter07-Class\ClassBase\ClassBaseExample\obj\Debug\net8.0\ClassBaseExample.GeneratedMSBuildEditorConfig.editorconfig
+D:\Practice\Practice-on-Vasiliev-s-book\Chapter07-Class\ClassBase\ClassBaseExample\obj\Debug\net8.0\ClassBaseExample.AssemblyInfoInputs.cache
+D:\Practice\Practice-on-Vasiliev-s-book\Chapter07-Class\ClassBase\ClassBaseExample\obj\Debug\net8.0\ClassBaseExample.AssemblyInfo.cs
+D:\Practice\Practice-on-Vasiliev-s-book\Chapter07-Class\ClassBase\ClassBaseExample\obj\Debug\net8.0\ClassBaseExample.csproj.CoreCompileInputs.cache
+D:\Practice\Practice-on-Vasiliev-s-book\Chapter07-Class\ClassBase\ClassBaseExample\obj\Debug\net8.0\ClassBaseExample.sourcelink.json
+D:\Practice\Practice-on-Vasiliev-s-book\Chapter07-Class\ClassBase\ClassBaseExample\obj\Debug\net8.0\ClassBaseExample.dll
+D:\Practice\Practice-on-Vasiliev-s-book\Chapter07-Class\ClassBase\ClassBaseExample\obj\Debug\net8.0\refint\ClassBaseExample.dll
+D:\Practice\Practice-on-Vasiliev-s-book\Chapter07-Class\ClassBase\ClassBaseExample\obj\Debug\net8.0\ClassBaseExample.pdb
+D:\Practice\Practice-on-Vasiliev-s-book\Chapter07-Class\ClassBase\ClassBaseExample\obj\Debug\net8.0\ClassBaseExample.genruntimeconfig.cache
+D:\Practice\Practice-on-Vasiliev-s-book\Chapter07-Class\ClassBase\ClassBaseExample\obj\Debug\net8.0\ref\ClassBaseExample.dll
+D:\Practice\Practice-on-Vasiliev-s-book\Chapter07-Class\ClassBase\ClassBaseExample\obj\Debug\net8.0\ClassBas.7E4A558E.Up2Date
